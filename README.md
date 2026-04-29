@@ -1,4 +1,4 @@
-# X86-Assembly-
+# X86-AssemblyConvert-
 Proyek ini adalah implementasi bahasa pemrograman Assembly (x86) untuk mengonversi nilai satuan panjang dari Centimeter (cm) ke Inchi. Program ini dirancang untuk dijalankan pada simulator x86
 ## 📝 Deskripsi Program
 
@@ -21,8 +21,6 @@ Program ini terbagi menjadi beberapa bagian utama:
     * Hasilnya dibagi 10.000 untuk mendapatkan angka bulat.
     * Sisa pembagian diproses kembali (dikali 10 lalu dibagi 10.000) untuk mendapatkan satu angka di belakang koma.
 
-## 📊 Flowchart Program
-
 ⚠️ Kelemahan & Solusi
 Kelemahan Saat Ini:
 Hardcoded Input: Nilai centimeter masih ditentukan di dalam kode program (cm: dd 10), sehingga pengguna harus mengubah kode secara manual untuk mengganti angka.
@@ -35,10 +33,10 @@ Input Dinamis: Menggunakan INT untuk membaca input dari keyboard agar pengguna b
 Peningkatan Presisi: Memodifikasi bagian pembagian sisa (EDX) secara berulang untuk menampilkan lebih banyak angka di belakang koma (misal 2 atau 3 digit desimal).
 
 🚀 Cara Menjalankan
-Salin kode dari file konversi.asm di repositori ini.
+Salin kode dari file assembly.asm di repositori ini.
 
 Buka website
-[Run Code(Assembly)](https://kobzol.github.io/davis/)
+[Run Code(asembly)](https://kobzol.github.io/davis/)
 
 Klik tombol Assemble.
 
