@@ -23,18 +23,6 @@ Program ini terbagi menjadi beberapa bagian utama:
 
 ## 📊 Flowchart Program
 
-```mermaid
-graph TD
-    A([Start]) --> B[Print 'Centimeter: ']
-    B --> C[Print Nilai cm]
-    C --> D[Hitung Konversi: <br/>inchi = cm * 3937 / 10000]
-    D --> E[Simpan Hasil Bulat & Sisa]
-    E --> F[Print 'Inchi: ']
-    F --> G[Print Nilai Inchi Bulat]
-    G --> H[Print Titik Desimal '.']
-    H --> I[Hitung & Print Digit Desimal Pertama]
-    I --> J[Print Newline]
-    J --> K([End])
 ⚠️ Kelemahan & Solusi
 Kelemahan Saat Ini:
 Hardcoded Input: Nilai centimeter masih ditentukan di dalam kode program (cm: dd 10), sehingga pengguna harus mengubah kode secara manual untuk mengganti angka.
@@ -49,9 +37,8 @@ Peningkatan Presisi: Memodifikasi bagian pembagian sisa (EDX) secara berulang un
 🚀 Cara Menjalankan
 Salin kode dari file konversi.asm di repositori ini.
 
-Buka https://kobzol.github.io/davis/  
-
-Tempelkan kode ke area editor.
+Buka website
+[Run Code(Assembly)](https://kobzol.github.io/davis/)
 
 Klik tombol Assemble.
 
